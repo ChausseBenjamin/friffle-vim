@@ -11,7 +11,6 @@ endif
 set t_Co=256
 let g:colors_name = "friffle"
 
-
 " Define reusable colorvariables.
 let s:bg="#222d32"
 let s:fg="#19B596"
@@ -32,14 +31,15 @@ let s:var="#6D878D"
 let s:warning="#F07746"
 let s:warning2="#D23D3D"
 
-exe 'hi Normal guifg='s:fg' guibg='s:bg
+exe 'hi Normal guifg='s:fg' guibg=NONE'
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
 exe 'hi CursorLine  guibg='s:bg2
+exe 'hi CursorLineNr guifg='s:fg' guibg=NONE'
 exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
-exe 'hi LineNr guifg='s:fg2' guibg='s:bg2
+exe 'hi LineNr guifg='s:fg2' guibg=NONE'
 exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
-exe 'hi MatchParen guifg='s:str'  guibg='s:var
+exe 'hi MatchParen guifg='s:str'  guibg='s:fg4' gui=bold'
 exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'
 exe 'hi Pmenu guifg='s:fg' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
@@ -59,13 +59,13 @@ exe 'hi DiffDelete guibg='s:bg2
 exe 'hi DiffChange  guibg=#151b3c guifg=#fafafa'
 exe 'hi DiffText guifg=#ffffff guibg=#ff0000 gui=bold'
 exe 'hi ErrorMsg guifg='s:warning' guibg='s:bg2' gui=bold'
-exe 'hi WarningMsg guifg='s:fg' guibg='s:warning2
+exe 'hi WarningMsg guifg='s:bg' guibg='s:const
 exe 'hi Float guifg='s:const
 exe 'hi Function guifg='s:func
 exe 'hi Identifier guifg='s:type'  gui=italic'
 exe 'hi Keyword guifg='s:keyword'  gui=bold'
 exe 'hi Label guifg='s:var
-exe 'hi NonText guifg='s:bg4' guibg='s:bg2
+exe 'hi NonText guifg='s:bg4' guibg=none'
 exe 'hi Number guifg='s:const
 exe 'hi Operater guifg='s:keyword
 exe 'hi PreProc guifg='s:keyword
@@ -113,5 +113,3 @@ exe 'hi htmlSpecialTagName guifg='s:keyword
 
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:builtin
-
-

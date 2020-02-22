@@ -2,7 +2,6 @@
 " Filename: autoload/lightline/colorscheme/friffle.vim
 " Author: Benjamin Chausse
 " License: MIT License
-" Last Change: 2020/02/20
 " =============================================================================
 
 " Common colors
@@ -26,13 +25,13 @@ let s:p.inactive.middle = [ [ s:gray1, s:gray2 ] ]
 let s:p.inactive.right  = [ [ s:gray1, s:bg ] ]
 
 " Common
-let s:p.normal.left    = [ [ s:bg, s:green, 'bold' ], [ s:fg, s:gray3 ] ]
+let s:p.normal.left    = [ [ s:bg, s:blue, 'bold' ], [ s:fg, s:gray3 ] ]
 let s:p.normal.middle  = [ [ s:fg, s:gray2 ] ]
-let s:p.normal.right   = [ [ s:bg, s:green, 'bold' ], [ s:fg, s:gray3 ] ]
+let s:p.normal.right   = [ [ s:bg, s:blue, 'bold' ], [ s:fg, s:gray3 ] ]
 let s:p.normal.error   = [ [ s:red2, s:bg ] ]
 let s:p.normal.warning = [ [ s:yellow, s:bg ] ]
-let s:p.insert.right   = [ [ s:bg, s:blue, 'bold' ], [ s:fg, s:gray3 ] ]
-let s:p.insert.left    = [ [ s:bg, s:blue, 'bold' ], [ s:fg, s:gray3 ] ]
+let s:p.insert.right   = [ [ s:bg, s:green, 'bold' ], [ s:fg, s:gray3 ] ]
+let s:p.insert.left    = [ [ s:bg, s:green, 'bold' ], [ s:fg, s:gray3 ] ]
 let s:p.replace.right  = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray3 ] ]
 let s:p.replace.left   = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray3 ] ]
 let s:p.visual.right   = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray3 ] ]

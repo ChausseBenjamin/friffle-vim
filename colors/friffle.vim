@@ -1,4 +1,4 @@
-" Vim color file
+:" Vim color file
 " friffle
 " Created by ChausseBenjamin with ThemeCreator (https://github.com/mswift42/themecreator)
 
@@ -34,10 +34,10 @@ let s:warning2="#D23D3D"
 exe 'hi Normal guifg='s:fg' guibg=NONE'
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
 exe 'hi CursorLine  guibg='s:bg2
-exe 'hi CursorLineNr guifg='s:fg' guibg=NONE'
+exe 'hi CursorLineNr guifg='s:keyword' guibg=NONE'
 exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
-exe 'hi LineNr guifg='s:fg2' guibg=NONE'
+exe 'hi LineNr guifg='s:comment' guibg=NONE'
 exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
 exe 'hi MatchParen guifg='s:str'  guibg='s:fg4' gui=bold'
 exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'
@@ -46,7 +46,8 @@ exe 'hi PmenuSel  guibg='s:bg3
 exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
 exe 'hi Search   guibg='s:str' guifg='s:bg
 exe 'hi Directory guifg='s:const
-exe 'hi Folded guifg='s:fg4' guibg='s:bg
+exe 'hi Folded guifg='s:const' guibg=NONE'
+" exe 'hi Folded guifg='s:fg4' guibg=NONE'
 
 exe 'hi Boolean guifg='s:const
 exe 'hi Character guifg='s:const

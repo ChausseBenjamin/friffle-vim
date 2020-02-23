@@ -38,7 +38,7 @@ exe 'hi CursorLineNr guifg='s:keyword' guibg=NONE'
 exe 'hi CursorColumn  guibg='s:bg2
 exe 'hi ColorColumn  guibg='s:bg2
 exe 'hi LineNr guifg='s:comment' guibg=NONE'
-exe 'hi VertSplit guifg='s:fg3' guibg='s:bg3
+exe 'hi VertSplit guifg='s:comment' guibg=NONE'
 exe 'hi MatchParen guifg='s:str'  guibg='s:fg4' gui=bold'
 exe 'hi StatusLine guifg='s:fg2' guibg='s:bg3' gui=bold'
 exe 'hi Pmenu guifg='s:fg' guibg='s:bg2

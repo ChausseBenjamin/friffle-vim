@@ -8,6 +8,13 @@ I'm a huge fan of the [nord theme](nordtheme.com) for its relaxing color palette
 
 I have often found that Nord had some colors which were to similar to one another and made syntax highlighting confusing at times. This is why I tried my best to make all the  colors distinguishable from one another without being too agressive. Behold, friffle-vim.
 
+## Installation
+
+Use your favourite plugin manager,
+- Vim-plug: `Plug 'ChausseBenjamin/friffle-vim'`
+- Vundle: `Plugin 'ChausseBenjamin/friffle-vim'`
+- Dein: `call dein#add('ChausseBenjamin/friffle-vim')`
+
 ## Showcase
 
 **C:**

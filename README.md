@@ -11,13 +11,13 @@ I have often found that Nord had some colors which were to similar to one anothe
 ## Showcase
 
 **C:**
-![friffle-vim with C](https://github.com/ChausseBenjamin/friffle-vim/resources/friffle-C.png)
+![friffle-vim with C](https://raw.githubusercontent.com/ChausseBenjamin/friffle-vim/master/resources/friffle-C.png)
 **Golang:**
-![friffle-vim with Go](https://github.com/ChausseBenjamin/friffle-vim/resources/friffle-go.png)
+![friffle-vim with Go](https://raw.githubusercontent.com/ChausseBenjamin/friffle-vim/master/resources/friffle-go.png)
 **Shell Scripts:**
-![friffle-vim with Shell Scripts](https://github.com/ChausseBenjamin/friffle-vim/resources/friffle-shell.png)
+![friffle-vim with Shell Scripts](https://raw.githubusercontent.com/ChausseBenjamin/friffle-vim/master/resources/friffle-shell.png)
 **Html**
-![friffle-vim with Html](https://github.com/ChausseBenjamin/friffle-vim/resources/friffle-html.png)
+![friffle-vim with Html](https://raw.githubusercontent.com/ChausseBenjamin/friffle-vim/master/resources/friffle-html.png)
 
 ## Known Issues:
 This is still a work in progress and I fix things when I have the time.

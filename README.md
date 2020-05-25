@@ -29,4 +29,4 @@ Use your favourite plugin manager,
 ## Known Issues:
 This is still a work in progress and I fix things when I have the time.
 
-- [  ] Higlighting tab suggestions in command mode is waay too yello
+- [x] Higlighting tab suggestions in command mode is waay too yello

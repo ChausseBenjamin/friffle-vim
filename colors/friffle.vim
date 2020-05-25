@@ -47,7 +47,7 @@ exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
 exe 'hi Search   guibg='s:str' guifg='s:bg
 exe 'hi Directory guifg='s:const
 exe 'hi Folded guifg='s:const' guibg=NONE'
-" exe 'hi Folded guifg='s:fg4' guibg=NONE'
+exe 'hi WildMenu guifg='s:str' guibg='s:bg
 
 exe 'hi Boolean guifg='s:const
 exe 'hi Character guifg='s:const

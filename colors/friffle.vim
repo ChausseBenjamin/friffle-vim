@@ -97,6 +97,9 @@ exe 'hi pythonBuiltinFunc guifg='s:builtin
 
 " Tex Highlighting
 exe 'hi texBuiltinFunc guifg='s:builtin
+
+" Go Highlighting
+exe 'hi goBuiltins guifg='s:builtin
 let g:go_highlight_array_whitespace_error = 1
 let g:go_highlight_build_constraints      = 1
 let g:go_highlight_chan_whitespace_error  = 1
@@ -113,9 +116,6 @@ let g:go_highlight_string_spellcheck      = 1
 let g:go_highlight_types                  = 1
 let g:go_highlight_variable_assignments   = 1
 let g:go_highlight_variable_declarations  = 1
-
-" Go Highlighting
-exe 'hi goBuiltins guifg='s:builtin
 
 " Javascript Highlighting
 exe 'hi jsBuiltins guifg='s:builtin

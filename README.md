@@ -17,16 +17,15 @@ Use your favourite plugin manager,
 
 ## Showcase
 
-**C:**
+### C:
 ![friffle-vim with C](https://raw.githubusercontent.com/ChausseBenjamin/friffle-vim/master/resources/friffle-C.png)
-**Golang:**
+### Golang:
 ![friffle-vim with Go](https://raw.githubusercontent.com/ChausseBenjamin/friffle-vim/master/resources/friffle-go.png)
-**Shell Scripts:**
+### Shell Scripts:
 ![friffle-vim with Shell Scripts](https://raw.githubusercontent.com/ChausseBenjamin/friffle-vim/master/resources/friffle-shell.png)
-**Html**
+### Html
 ![friffle-vim with Html](https://raw.githubusercontent.com/ChausseBenjamin/friffle-vim/master/resources/friffle-html.png)
 
-## Known Issues:
+## Issues:
 This is still a work in progress and I fix things when I have the time.
-
-- [x] Higlighting tab suggestions in command mode is waay too yello
+Feel free to submit pull requests. The better it gets, the better for everyone!

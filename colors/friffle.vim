@@ -47,6 +47,7 @@ exe 'hi IncSearch guifg='s:bg' guibg='s:keyword
 exe 'hi Search   guibg='s:str' guifg='s:bg
 exe 'hi Directory guifg='s:const
 exe 'hi Folded guifg='s:const' guibg=NONE'
+exe 'hi Folded guifg='s:fg3' guibg='s:bg
 exe 'hi WildMenu guifg='s:str' guibg='s:bg
 exe 'hi Todo guibg='s:bg
 
@@ -81,6 +82,24 @@ exe 'hi Title guifg='s:fg'  gui=bold'
 exe 'hi Todo guifg='s:fg2'  gui=inverse,bold'
 exe 'hi Type guifg='s:type
 exe 'hi Underlined   gui=underline'
+
+" Neovim Terminal Mode
+let g:terminal_color_0 = s:bg
+let g:terminal_color_1 = s:warning
+let g:terminal_color_2 = s:keyword
+let g:terminal_color_3 = s:bg4
+let g:terminal_color_4 = s:func
+let g:terminal_color_5 = s:builtin
+let g:terminal_color_6 = s:fg3
+let g:terminal_color_7 = s:str
+let g:terminal_color_8 = s:bg2
+let g:terminal_color_9 = s:warning2
+let g:terminal_color_10 = s:fg2
+let g:terminal_color_11 = s:var
+let g:terminal_color_12 = s:type
+let g:terminal_color_13 = s:const
+let g:terminal_color_14 = s:fg4
+let g:terminal_color_15 = s:comment
 
 " Ruby Highlighting
 exe 'hi rubyAttribute guifg='s:builtin

@@ -37,8 +37,8 @@ let s:p.replace.left   = [ [ s:bg, s:red1, 'bold' ], [ s:fg, s:gray3 ] ]
 let s:p.visual.right   = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray3 ] ]
 let s:p.visual.left    = [ [ s:bg, s:purple, 'bold' ], [ s:fg, s:gray3 ] ]
 let s:p.tabline.left   = [ [ s:fg, s:gray3 ] ]
-let s:p.tabline.tabsel = [ [ s:bg, s:purple, 'bold' ] ]
+let s:p.tabline.tabsel = [ [ s:bg, s:blue, 'bold' ] ]
 let s:p.tabline.middle = [ [ s:gray3, s:gray2 ] ]
-let s:p.tabline.right  = copy(s:p.normal.right)
+let s:p.tabline.right  = copy(s:p.normal.middle)
 
 let g:lightline#colorscheme#friffle#palette = lightline#colorscheme#flatten(s:p)

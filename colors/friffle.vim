@@ -32,6 +32,7 @@ let s:warning="#F07746"
 let s:warning2="#D23D3D"
 
 exe 'hi Normal guifg='s:fg' guibg=NONE'
+exe 'hi Conceal guifg='s:fg' guibg=NONE'
 exe 'hi Cursor guifg='s:bg' guibg='s:fg
 exe 'hi CursorLine  guibg='s:bg2
 exe 'hi CursorLineNr guifg='s:keyword' guibg=NONE'

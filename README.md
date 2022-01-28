@@ -26,13 +26,13 @@ Use your favourite plugin manager,
 ## Showcase
 
 ### C:
-![friffle-vim with C](./resources/friffle-C.png)
+![friffle-vim with C](./resources/friffle-C.webm)
 ### Golang:
-![friffle-vim with Go](./resources/friffle-go.png)
+![friffle-vim with Go](./resources/friffle-go.webm)
 ### Shell Scripts:
-![friffle-vim with Shell Scripts](./resources/friffle-shell.png)
+![friffle-vim with Shell Scripts](./resources/friffle-shell.webm)
 ### Html
-![friffle-vim with Html](./resources/friffle-html.png)
+![friffle-vim with Html](./resources/friffle-html.webm)
 
 ## Issues:
 

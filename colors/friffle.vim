@@ -1,4 +1,4 @@
-:" Vim color file
+" Vim color file
 " friffle
 " Created by ChausseBenjamin with ThemeCreator (https://github.com/mswift42/themecreator)
 
@@ -84,6 +84,10 @@ exe 'hi Title guifg='s:fg'  gui=bold'
 exe 'hi Todo guifg='s:fg2'  gui=inverse,bold'
 exe 'hi Type guifg='s:type
 exe 'hi Underlined   gui=underline'
+exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2
+exe 'hi TabLine guifg='s:fg4' guibg='s:bg2
+exe 'hi TabLineFill guifg='s:bg' guibg='s:bg
+exe 'hi TabLineSel guifg='s:fg' guibg='s:bg
 
 " Neovim Terminal Mode
 let g:terminal_color_0 = s:bg

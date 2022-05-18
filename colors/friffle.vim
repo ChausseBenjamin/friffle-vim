@@ -107,7 +107,7 @@ let g:terminal_color_13 = s:const
 let g:terminal_color_14 = s:fg4
 let g:terminal_color_15 = s:comment
 
-" Ruby Highlighting
+" Ruby
 exe 'hi rubyAttribute guifg='s:builtin
 exe 'hi rubyLocalVariableOrMethod guifg='s:var
 exe 'hi rubyGlobalVariable guifg='s:var' gui=italic'
@@ -118,13 +118,13 @@ exe 'hi rubyClassDeclaration guifg='s:keyword' gui=bold'
 exe 'hi rubyClass guifg='s:keyword' gui=bold'
 exe 'hi rubyNumber guifg='s:const
 
-" Python Highlighting
+" Python
 exe 'hi pythonBuiltinFunc guifg='s:builtin
 
-" Tex Highlighting
+" Tex
 exe 'hi texBuiltinFunc guifg='s:builtin
 
-" Go Highlighting
+" Go
 exe 'hi goBuiltins guifg='s:builtin
 let g:go_highlight_array_whitespace_error = 1
 let g:go_highlight_build_constraints      = 1
@@ -143,17 +143,25 @@ let g:go_highlight_types                  = 1
 let g:go_highlight_variable_assignments   = 1
 let g:go_highlight_variable_declarations  = 1
 
-" Javascript Highlighting
+" Javascript
 exe 'hi jsBuiltins guifg='s:builtin
 exe 'hi jsFunction guifg='s:keyword' gui=bold'
 exe 'hi jsGlobalObjects guifg='s:type
 exe 'hi jsAssignmentExps guifg='s:var
 
-" Html Highlighting
+" Html
 exe 'hi htmlLink guifg='s:var' gui=underline'
 exe 'hi htmlStatement guifg='s:keyword
 exe 'hi htmlSpecialTagName guifg='s:keyword
 
-" Markdown Highlighting
+" Markdown
 exe 'hi mkdCode guifg='s:builtin
+
+" Vimwiki
+exe 'hi VimwikiHeader1 guifg='s:str
+exe 'hi VimwikiHeader2 guifg='s:keyword
+exe 'hi VimwikiHeader3 guifg='s:type
+exe 'hi VimwikiHeader4 guifg='s:builtin
+exe 'hi VimwikiHeader5 guifg='s:builtin
+exe 'hi VimwikiHeader6 guifg='s:builtin
 

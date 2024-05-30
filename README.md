@@ -1,6 +1,6 @@
 Vim Friffle
 ---
-An eye catching, yet simple theme for vim.
+An eye catching, yet simple colorscheme for vim & neovim.
 
 ## Inspiration
 
